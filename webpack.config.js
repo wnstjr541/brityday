@@ -13,7 +13,7 @@ module.exports = {
 		main: './src/main.js',
 	},
 	output: {
-		path: path.resolve('./root'),
+		path: path.resolve('./docs'),
 		filename: '[name].min.js'
 	  },
 	// es5로 빌드 해야 할 경우 주석 제거
